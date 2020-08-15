@@ -1,0 +1,23 @@
+[
+  {
+    "family": "Pier Sans",
+    "fonts": [
+      {
+        "asset": "assets/fonts/PierSans-Regular.ttf"
+      },
+      {
+        "asset": "assets/fonts/PierSans-Italic.ttf",
+        "style": "italic"
+      },
+      {
+        "asset": "assets/fonts/PierSans-Bold.ttf",
+        "weight": 700
+      },
+      {
+        "asset": "assets/fonts/PierSans-BoldItalic.ttf",
+        "style": "italic",
+        "weight": 700
+      }
+    ]
+  }
+]
