@@ -1,43 +1,57 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
-var kLightTheme = ThemeData(
-  scaffoldBackgroundColor: Color(0xFFD4ECFF),
-  appBarTheme: AppBarTheme(
-    color: Color(0xFFD4ECFF),
-    centerTitle: false,
-    shadowColor: Colors.transparent,
-  ),
-  primaryColor: Color(0xFF05131E),
-  fontFamily: 'Pier Sans',
-);
+var kTextColorDark = Colors.white;
+var kText2ColorDark = Colors.white.withOpacity(0.8);
+var kPrimaryBlueColor = Color(0xFF008BFF);
 
-var kDarkTheme = ThemeData(
-  scaffoldBackgroundColor: Color(0xFF05131E),
-  appBarTheme: AppBarTheme(
-    color: Color(0xFF05131E),
-    centerTitle: false,
-    shadowColor: Colors.transparent,
-    textTheme: TextTheme(
-      headline6: TextStyle(
-        color: Color(0xFFD4ECFF),
-        fontSize: 17.0,
-        letterSpacing: 3,
-        fontFamily: 'Pier Sans',
-        fontWeight: FontWeight.w700,
-      ),
-    ),
-  ),
-  primaryColor: Color(0xFFD4ECFF),
+var kHeadline1TextStyle = TextStyle(
   fontFamily: 'Pier Sans',
-  textTheme: TextTheme(
-    headline2: TextStyle(
-      color: Color(0xFFD4ECFF),
-      fontSize: 60.0,
-      fontWeight: FontWeight.bold,
-    ),
-    headline4: TextStyle(
-      color: Color(0xFFD4ECFF),
-      fontSize: 30.0,
-    ),
-  ),
+  fontWeight: FontWeight.w700,
+  fontSize: 60,
+);
+var kHeadline2TextStyle = TextStyle(
+  fontFamily: 'Pier Sans',
+  fontWeight: FontWeight.w700,
+  fontSize: 50,
+);
+var kHeadline3TextStyle = TextStyle(
+  fontFamily: 'Pier Sans',
+  fontWeight: FontWeight.w700,
+  fontSize: 40,
+);
+var kHeadline4TextStyle = TextStyle(
+  fontFamily: 'Pier Sans',
+  fontWeight: FontWeight.w700,
+  fontSize: 30,
+);
+var kBodyIntroTextStyle = TextStyle(
+  fontWeight: FontWeight.w500,
+  fontSize: 24,
+);
+var kBodyMainTextStyle = TextStyle(
+  fontSize: 20,
+);
+var kMediumTextTextStyle = TextStyle(
+  fontSize: 17,
+  fontWeight: FontWeight.w500,
+);
+var kCaption1TextStyle = TextStyle(
+  fontFamily: 'Pier Sans',
+  fontSize: 15,
+);
+var kCaption2TextStyle = TextStyle(
+  fontFamily: 'Pier Sans',
+  fontSize: 15,
+  fontWeight: FontWeight.w700,
+);
+var kSmallText1TextStyle = TextStyle(
+  fontFamily: 'Pier Sans',
+  fontSize: 13,
+);
+var kSmallText2TextStyle = TextStyle(
+  fontFamily: 'Pier Sans',
+  fontSize: 13,
+  fontWeight: FontWeight.w700,
 );
