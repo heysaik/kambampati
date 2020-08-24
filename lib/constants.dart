@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 var kTextColorDark = Colors.white;
 var kText2ColorDark = Colors.white.withOpacity(0.8);
 var kPrimaryBlueColor = Color(0xFF008BFF);
+var kPurpleColor = Color(0xFF7A4BFF);
 
 var kHeadline1TextStyle = TextStyle(
   fontFamily: 'Pier Sans',
